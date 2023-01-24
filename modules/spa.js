@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 const listBtn = document.querySelector('#listBtn');
 const addNewBtn = document.querySelector('#addNewBtn');
 const contactBtn = document.querySelector('#contactBtn');
