@@ -199,10 +199,12 @@ footer {
   bottom: 0;
   text-align: center;
 }
+
 footer a {
   text-decoration: none;
   color: white;
 }
+
 footer img {
   width: 1rem;
   color: white;
@@ -220,5 +222,3 @@ footer img {
     margin-top: 1rem;
   }
 }
-
-/*# sourceMappingURL=index.css.map */
