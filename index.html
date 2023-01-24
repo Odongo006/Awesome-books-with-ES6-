@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Books</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+      <!-- Header Section -->
+  <header>
+    <h1>Awesome Books</h1>
+    <nav>
+      <ul>
+        <li><button type="button" class="linkBtn active" id="listBtn">List</button>
+        </li>
+        <li>|</li>
+        <li><button type="button" class="linkBtn" id="addNewBtn">Add New</button></li>
+        <li>|</li>
+        <li><button type="button" class="linkBtn" id="contactBtn">Contact</button></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="dateDisplay"></div>
+  <!-- List Section -->
+  <section class="list" id="list">
+    <h2>Your List of Books</h2>
+    <div class="collection">
+    </div>
+  </section>
+  <!-- Add New Book Section -->
+  <section class="addNew" id="addNew">
+    <h2>Add book to library</h2>
+    <div class="book-input">
+      <label for="title"></label>
+      <input type="text" id="title" name="title" placeholder="Title">
+      <label for="author"></label>
+      <input type="text" id="author" name="author" placeholder="Author">
+      <button type="button" id="addBtn">Add</button>
+    </div>
+  </section>
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Contact information</h2>
+    <p>Do you have any questions or you just want to say "Hello"? <br> You can reach out to us!
+    </p>
+    <ul>
+      <li>Our e-mail: henryomondi6612@mail.com</li>
+      <li>Our phone number: +254 113 255 873</li>
+      <li>Our address: Nyale road 22, 84503 City, Country</li>
+    </ul>
+  </section>
+  <!-- Footer Section -->
+  <footer>
+    <span>Copyright ©️ 2023</span>
+    <span>
+      <a href="https://github.com/mavericks-db">Henry</a>
+    </span>
+    <span>&</span>
+    <span>
+      <a href="https://github.com/Odongo006">Odongo006</a>
+    </span>
+    <span><img src="./assets/github.svg" alt=""></span>
+  </footer>
+  <script src="spa.js"></script>
+  <script src="content.js"></script>
+</body>
+</html>
