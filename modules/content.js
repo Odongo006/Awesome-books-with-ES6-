@@ -63,7 +63,6 @@ class BookObject {
 // Add Button Event
 addBtn.addEventListener('click', () => {
   if (title.value === '' || author.value === '') {
-    // eslint-disable-next-line no-alert
     alert('Please fill in all fields');
   } else {
     BookObject.addBook(title.value, author.value, id);
